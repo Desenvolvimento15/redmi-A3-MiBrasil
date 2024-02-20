@@ -213,49 +213,27 @@ margin: 1rem;
 
 /************************ Grid ***********************/
 
-
 .grid-template-2 {
-    display: grid;
+display: grid;
 
-    grid-template-areas:
- 
-		"img-01 img-02 img-04" 
-		"img-03" 
+grid-template:
+"img-01 im-02" 50px
+"img-03" 100px
+"img-04" 150px
 }
 
-.img-01 {
-	grid-area: img-01 ;
-}
-
-.img-02 {
-	grid-area: img-02;
-}
-
-.img-03 {
-	grid-area: img-03;
-}
-
-.img-04 {
-	grid-area: img-04;
-}
-
-
-
-
-
-
-
-
-
+.img-01 {grid-area: img-01;}
+.img-02 {grid-area: img-02;}
+.img-03 {grid-area: img-03;}
+.img-04 {grid-area: img-04;}
 
 .grid-xiaomi-text-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: start;
-    justify-items: start;
-    width: 32rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: start;
+justify-items: start;
+width: 32rem;
 }
-
 
 .icons-img-text {
 display: flex;
@@ -263,10 +241,7 @@ flex-direction: column;
 margin: 1rem;
 }
 
-
-.grid-text{
-display: flex;
-}
+.grid-text{display: flex;}
 
 /********************** Slideshow ********************/
 
@@ -327,14 +302,33 @@ background: #292929;
 border-color: #292929;
 }
 
-
-
 .icons-img-end{
 width: 40rem;
 margin: 0 auto;
 display: block;
 margin-top: 5rem;
 }
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 10px; /* Espaço entre as imagens */
+  }
+  .square-1, .square-2 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .rectangle-vertical {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 2;
+  }
+
+  .rectangle-horizontal {
+    grid-column: 1 / span 2;
+    grid-row: 2 / span 1;
+  }
 
 /************************* Mobile ***********************/
 
