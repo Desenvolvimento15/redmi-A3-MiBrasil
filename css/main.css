@@ -1,9 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container-s101 {
 max-width: 1440px;
 background-color: #fff;
 background-repeat: repeat-y;
 }
 
+body{
+    background: #292929 !important;
+}
 .container-s101 {
 width: 100%;
 padding-right: 15px;
@@ -37,7 +45,7 @@ margin-left: -15px;
 :root{
 --background-white: #ffff;
 --background-black: #111;
---background-silver: #e2e1e6;
+--background-silver: #f7f7f7;
 
 --text-white: #fff;
 --text-preto: #000;
@@ -61,7 +69,7 @@ unicode-range: U+1F00-1FFF;
 }
 
 
-.img-fluid {max-width: 100%; height: auto;}
+.img-fluid {width: 100%; height: auto;}
 
 .img-mob{display: none;}
 .img-desk{display: block;}
@@ -70,29 +78,31 @@ unicode-range: U+1F00-1FFF;
 .spacing-galery{padding: 12rem;}
 
 
-.title-redmi{
-text-align: center;
-font-size: 3rem;
-font-weight: 600;
-font-display: swap;
-font-family: 'CamphorPro', sans-serif;
-position: relative;
-overflow-wrap: break-word;
-}
 
-
-.title-purple {
+.title-blue-dark {
 -webkit-text-fill-color: transparent;
-background: linear-gradient(-55deg,#a39bed,#7169e1);
+background: radial-gradient(circle, rgba(0,0,0,1) 30%, rgb(136, 189, 253) 100%);
 -webkit-background-clip: text;
 background-clip: text;
 background-repeat: no-repeat;
-background-size: 150% 150%;
+background-size: 175% 150%;
 color: #000;
-font-size: 2rem;
-font-weight: 700;
+font-size:13rem;
+font-weight: 600;
 letter-spacing: 0;
 text-align: center;
+line-height: normal;
+font-family: 'CamphorPor', sans-serif;
+}
+
+
+.background-gradient {
+background: linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);
+width: 100%;
+height: 43rem;
+position: relative;
+z-index: 8;
+top: -49px;
 }
 
 .subtitle-xioami{
@@ -203,57 +213,49 @@ margin: 1rem;
 
 /************************ Grid ***********************/
 
-.grid-title {
-position: absolute;
-left: 1137px;
-right: 0;
-top: 169px;
-bottom: 0;
-width: 22rem;
-height: 6rem;
-display: flex;
-flex-direction: column;
+
+.grid-template-2 {
+    display: grid;
+
+    grid-template-areas:
+ 
+		"img-01 img-02 img-04" 
+		"img-03" 
 }
 
-.grid-img-text{
-display: flex;
-gap: 2rem;
+.img-01 {
+	grid-area: img-01 ;
 }
+
+.img-02 {
+	grid-area: img-02;
+}
+
+.img-03 {
+	grid-area: img-03;
+}
+
+.img-04 {
+	grid-area: img-04;
+}
+
+
+
+
+
+
+
+
+
 
 .grid-xiaomi-text-info {
-display: grid;
-grid-template-columns: 1fr 1fr;
-justify-content: start;
-justify-items: start;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    justify-items: start;
+    width: 32rem;
 }
 
-.grid-live{
-display: flex;
-}
-
-.grid-coll-text{
-display: flex;
-}
-
-.grid-coll-text {
-display: flex;
-flex-direction: column;
-align-content: flex-start;
-align-items: flex-start;
-justify-content: center;
-}
-
-.grid-atm{
-position: absolute;
-left: -42rem;
-right: 0;
-top: 0;
-bottom: 0;
-margin: auto;
-max-width: 36rem;
-height: 15rem;
-display: block;
-}
 
 .icons-img-text {
 display: flex;
@@ -303,7 +305,7 @@ transition: all .4s ease;
 .slick-dots {
 margin: 2rem 0 0;
 padding: 0;
-text-align: left;
+text-align: center;
 margin-bottom: 1rem;
 }
 
