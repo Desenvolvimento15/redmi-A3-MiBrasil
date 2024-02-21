@@ -74,7 +74,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 .subtitle-xioami{
 text-align: center;
 font-size: 1.5rem;
-font-weight: 0;
+font-weight: 100;
 font-family: 'CamphorPro', sans-serif;
 position: relative;
 overflow-wrap: break-word;
@@ -88,6 +88,7 @@ font-family:'CamphorPro', sans-serif;
 position: relative;
 overflow-wrap: break-word;
 }
+
 
 .subtitle-center{
 text-align: center;
@@ -161,13 +162,16 @@ text-align: center;
 }
 
 
-
-.box-blue{
+.box-blue {
 width: 100%;
 background: #698EC3;
 height: 11rem;
 padding: 1rem;
 margin-bottom: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
 }
 
 .box-green{
@@ -176,10 +180,21 @@ background: #68796F;
 height: 11rem;
 padding: 1rem;
 margin-bottom: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+justify-content: center;
 }
 
 /************************ Grid ***********************/
 
+.grid-a3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: start;
+    justify-items: start;
+    width: 30rem;
+}
 
 .icons-img-text {
 display: flex;
