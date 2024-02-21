@@ -63,6 +63,7 @@ unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+
 }
 
 .img-fluid {width: 100%; height: auto;}
+.img-size{width: 71.5%; display: block; margin: 0 auto;}
 
 .img-mob{display: none;}
 .img-desk{display: block;}
@@ -163,7 +164,7 @@ text-align: center;
 
 
 .box-blue {
-width: 100%;
+width: 71.5%;
 background: #698EC3;
 height: 11rem;
 padding: 1rem;
@@ -172,10 +173,12 @@ display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
 justify-content: center;
+margin: 0 auto;
+margin-bottom: 4rem;
 }
 
 .box-green{
-width: 100%;
+width: 71.5%;
 background: #68796F;
 height: 11rem;
 padding: 1rem;
@@ -184,6 +187,8 @@ display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
 justify-content: center;
+margin: 0 auto;
+margin-bottom: 4rem;
 }
 
 /************************ Grid ***********************/
