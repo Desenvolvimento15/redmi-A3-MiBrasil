@@ -170,7 +170,6 @@ width: 25rem;
 font-size: 1.3rem;
 font-family: 'CamphorPro', sans-serif;
 font-weight: 700;
-color: var(--text-preto);
 line-height: 1.2;
 text-align: center;
 }
@@ -257,6 +256,19 @@ align-items: center;
 
 .grid-text{display: flex;}
 
+.grid-icons-a3 {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+flex-direction: row;
+margin-top: 4rem;
+gap: 2rem;
+}
+
+.line-white{
+    border-right: solid 1px #fff;
+}
+
 /********************** Slideshow ********************/
 
 .slick-slider {
@@ -322,6 +334,8 @@ margin: 0 auto;
 display: block;
 margin-top: 5rem;
 }
+
+
 
 /************************* Mobile ***********************/
 
@@ -394,6 +408,16 @@ flex: 0 0 100%;
 max-width: 100%;
 }
 
+
+.line-white{
+    border-right: solid 1px #fff;
+
+
+}
+
+
+
+
 /********************** Grind Mobile *******************/
 .grid-xiaomi-text-info {
 display: flex;
@@ -420,6 +444,8 @@ justify-content: center;
 align-items: center;
 gap: 1rem;    
 }
+
+
 
 /**************************TxT******************************/
 
