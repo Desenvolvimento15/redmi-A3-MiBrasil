@@ -199,7 +199,7 @@ height: 55rem;
 .title-blue-dark {
 -webkit-text-fill-color: transparent;
 background: rgb(63,93,127);
-background: radial-gradient(circle,  rgba(0,0,0,1) 10%, rgb(108, 170, 240) 100%);
+background: radial-gradient(circle,  rgba(0,0,0,1) 25%, rgb(108, 170, 240) 100%);
 -webkit-background-clip: text;
 background-clip: text;
 background-repeat: no-repeat;
