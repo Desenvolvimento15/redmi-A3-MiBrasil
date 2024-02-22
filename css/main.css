@@ -108,6 +108,15 @@ position: relative;
 overflow-wrap: break-word;
 }
 
+.sub-title-left{
+text-align: left;
+font-size: 3rem;
+font-weight: lighter;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
+
 .p-center {
 font-size: 1.1rem;
 text-align: center;
