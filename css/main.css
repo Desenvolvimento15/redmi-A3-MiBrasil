@@ -183,6 +183,22 @@ text-align: center;
 }
 
 
+.icons-img-title {
+font-size: 1.3rem;
+font-family: 'CamphorPro', sans-serif;
+font-weight: 700;
+line-height: 1.2;
+text-align: left;
+}
+
+.icons-img-text {
+font-size: 1rem;
+font-family: 'CamphorPro', sans-serif;
+font-weight: 400;
+line-height: 1.2;
+text-align: left;
+}
+
 .box-blue {
 width: 71.5%;
 background: #698EC3;
@@ -215,6 +231,7 @@ margin-bottom: 4rem;
 background: linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);
 width: 100%;
 height: 55rem;
+position: relative;
 }
 
 .title-blue-dark {
@@ -243,18 +260,13 @@ grid-template-columns: 1fr 1fr;
 justify-content: start;
 justify-items: start;
 width: 30rem;
+gap: 1rem;
+margin-top: 3rem;
 }
 
-.icons-img-text {
-display: flex;
-flex-direction: column;
-margin: 1rem;
-align-content: center;
-justify-content: center;
-align-items: center;
-}
 
 .grid-text{display: flex;}
+
 
 .grid-icons-a3 {
 display: flex;
@@ -262,12 +274,17 @@ flex-wrap: wrap;
 justify-content: center;
 flex-direction: row;
 margin-top: 4rem;
-gap: 2rem;
+gap: 5rem;
+width: 54rem;
+margin: 0 auto;
+margin-top: 2rem;
 }
 
-.line-white{
-    border-right: solid 1px #fff;
+.grid-text-info{
+    text-align: center;
 }
+
+.line-white{border-right: solid 1px #fff;}
 
 /********************** Slideshow ********************/
 
@@ -348,11 +365,11 @@ margin: 0 auto;
 }
 
 .grid-a3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: start;
-    justify-items: start;
-    width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: start;
+justify-items: start;
+width: 100%;
 }
 
 .img-fluid-icons {width: 100%; height: auto;}
@@ -371,6 +388,23 @@ margin: 0 auto;
 .box-gradient {
 background: linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);
 width: 100%; height: 32rem;
+}
+
+.title-blue-dark {
+-webkit-text-fill-color: transparent;
+background: rgb(63,93,127);
+background: radial-gradient(circle, rgba(0,0,0,1) 25%, rgb(108, 170, 240) 100%);
+-webkit-background-clip: text;
+background-clip: text;
+background-repeat: no-repeat;
+background-size: 150% 150%;
+color: #000;
+font-family: 'CamphorPro', sans-serif;
+font-size: 6.5rem;
+font-weight: bold;
+letter-spacing: 0;
+text-align: center;
+margin-bottom: -2.5rem;
 }
 
 
@@ -408,17 +442,10 @@ flex: 0 0 100%;
 max-width: 100%;
 }
 
-
-.line-white{
-    border-right: solid 1px #fff;
-
-
-}
-
-
-
+.line-white{border-right: solid 1px #fff;}
 
 /********************** Grind Mobile *******************/
+
 .grid-xiaomi-text-info {
 display: flex;
 align-items: center;
@@ -445,8 +472,6 @@ align-items: center;
 gap: 1rem;    
 }
 
-
-
 /**************************TxT******************************/
 
 .title-xioami{
@@ -454,6 +479,24 @@ text-align: center;
 font-size: 2.2rem;
 font-weight: 600;
 font-family:'CamphorPro', sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
+
+.sub-title-left {
+text-align: left;
+font-size: 2rem;
+font-weight: lighter;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+overflow-wrap: break-word;
+}
+
+.sub-title {
+text-align: center;
+font-size: 2rem;
+font-weight: lighter;
+font-family: 'CamphorPro', sans-serif;
 position: relative;
 overflow-wrap: break-word;
 }
@@ -483,6 +526,19 @@ font-weight: 700;
 font-family: 'CamphorPro', sans-serif;
 position: relative;
 margin-bottom: 0.5rem;
+}
+
+.text-border {
+color: #f1f3f7;
+font-family: 'CamphorPro', sans-serif;
+font-size: 14rem;
+display: block;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #f1f3f7;
+text-transform: uppercase;
+font-weight: 900;
+width: 100%;
 }
 
 .p-center {
