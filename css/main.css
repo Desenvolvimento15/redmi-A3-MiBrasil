@@ -234,6 +234,13 @@ height: 55rem;
 position: relative;
 }
 
+.box-gradient-2{
+    background: linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);
+    width: 100%;
+    height: auto;
+    position: relative; 
+}
+
 .title-blue-dark {
 -webkit-text-fill-color: transparent;
 background: rgb(63,93,127);
@@ -251,6 +258,8 @@ text-align: center;
 margin-bottom: -2.5rem;
 }
     
+
+.line-white{border-right: solid 1px #fff;}
 
 /************************ Grid ***********************/
 
@@ -284,7 +293,25 @@ margin-top: 2rem;
     text-align: center;
 }
 
-.line-white{border-right: solid 1px #fff;}
+
+.grid-icons-four{
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 55%;
+margin: 0 auto;
+gap: 1rem;
+margin-top: 15rem;
+}  
+
+.grid-icons-five{
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 70%;
+margin: 0 auto;
+gap: 1rem;
+margin-top: 3rem;
+}   
+    
 
 /********************** Slideshow ********************/
 
@@ -383,6 +410,7 @@ width: 100%;
 
 .img-desk{display: none;}
 .img-mob{display: block;}
+
 
 
 .box-gradient {
