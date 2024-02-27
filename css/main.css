@@ -257,7 +257,7 @@ letter-spacing: 0;
 text-align: center;
 margin-bottom: -2.5rem;
 }
-    
+
 
 .line-white{border-right: solid 1px #fff;}
 
@@ -304,12 +304,12 @@ margin-top: 2rem;
 
 
 .grid-icons-four {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 55%;
-    margin: 0 auto;
-    gap: 1rem;
-    margin-top: 3rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 55%;
+margin: 0 auto;
+gap: 1rem;
+margin-top: 3rem;
 }
 
 .grid-icons-five{
@@ -322,13 +322,13 @@ margin-top: 3rem;
 }   
 
 .txt-mob {
-    position: absolute;
-    top: 80%;
-    left: -68rem;
-    transform: translate(-50%, -50%);
-    width: 25rem;
+position: absolute;
+top: 80%;
+left: -68rem;
+transform: translate(-50%, -50%);
+width: 25rem;
 }
-    
+
 
 /********************** Slideshow ********************/
 
@@ -409,11 +409,11 @@ margin: 0 auto;
 }
 
 .txt-mob{
-    position: absolute;
-    top: 84%;
-    left: -14rem;
-    transform: translate(-50%, -50%);
-    width: 15rem;
+position: absolute;
+top: 84%;
+left: -14rem;
+transform: translate(-50%, -50%);
+width: 15rem;
 }
 
 .grid-a3 {
@@ -439,32 +439,32 @@ width: 100%;
 
 
 .box-gradient {
-    background: linear-gradient(35deg, rgba(117, 237, 212, 1) 12%, rgba(99, 149, 220, 1) 45%, rgba(76, 170, 232, 1) 70%, rgba(44, 225, 255, 1) 96%);
-    width: 100%;
-    height: auto;
+background: linear-gradient(35deg, rgba(117, 237, 212, 1) 12%, rgba(99, 149, 220, 1) 45%, rgba(76, 170, 232, 1) 70%, rgba(44, 225, 255, 1) 96%);
+width: 100%;
+height: auto;
 }
 
 .box-gradient-mob {
-    background: linear-gradient(31deg, rgba(117, 237, 212, 1) 5%, rgba(99, 149, 220, 1) 20%, rgba(76, 170, 232, 1) 70%, rgba(44, 225, 255, 1) 96%);
-    width: 100%;
-    height: auto;
+background: linear-gradient(31deg, rgba(117, 237, 212, 1) 5%, rgba(99, 149, 220, 1) 20%, rgba(76, 170, 232, 1) 70%, rgba(44, 225, 255, 1) 96%);
+width: 100%;
+height: auto;
 }
 
 .title-blue-dark {
-    -webkit-text-fill-color: transparent;
-    background: rgb(63, 93, 127);
-    background: radial-gradient(circle, rgba(0, 0, 0, 1) 25%, rgb(108, 170, 240) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-repeat: no-repeat;
-    background-size: 150% 150%;
-    color: #000;
-    font-family: 'CamphorPro', sans-serif;
-    font-size: 4.5rem;
-    font-weight: bold;
-    letter-spacing: 0;
-    text-align: center;
-    margin-bottom: -0.5rem;
+-webkit-text-fill-color: transparent;
+background: rgb(63, 93, 127);
+background: radial-gradient(circle, rgba(0, 0, 0, 1) 25%, rgb(108, 170, 240) 100%);
+-webkit-background-clip: text;
+background-clip: text;
+background-repeat: no-repeat;
+background-size: 150% 150%;
+color: #000;
+font-family: 'CamphorPro', sans-serif;
+font-size: 4.5rem;
+font-weight: bold;
+letter-spacing: 0;
+text-align: center;
+margin-bottom: -0.5rem;
 }
 
 
@@ -481,7 +481,7 @@ justify-content: center;
 margin: 0 auto;
 margin-bottom: 2rem;
 }
-    
+
 .box-green{
 width: 100%;
 background: #68796F;
@@ -508,7 +508,6 @@ max-width: 100%;
 
 
 .grid-text-a3 {
-
 gap: 1rem;
 width: auto;
 margin: 0 auto;
@@ -517,6 +516,7 @@ grid-template-columns: 1fr 1fr;
 justify-items: center;
 align-items: center;
 justify-content: center;
+padding: 1rem;
 }
 
 .grid-xiaomi-text-info {
@@ -538,20 +538,20 @@ margin-top: 2rem;
 
 
 .grid-icons-four {
-    width: 100%;
-    gap: 1rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 1.5rem;
+width: 100%;
+gap: 1rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+padding: 1.5rem;
 }
 
 
 .grid-icons-five {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 100%;
+display: flex;
+flex-direction: column;
+gap: 1rem;
+width: 100%;
 }
 /**************************TxT******************************/
 
