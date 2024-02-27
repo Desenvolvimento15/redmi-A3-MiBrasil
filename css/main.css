@@ -444,6 +444,12 @@ width: 100%;
     height: auto;
 }
 
+.box-gradient-mob {
+    background: linear-gradient(35deg, rgba(117, 237, 212, 1) 12%, rgba(99, 149, 220, 1) 45%, rgba(76, 170, 232, 1) 70%, rgba(44, 225, 255, 1) 96%);
+    width: 100%;
+    height: auto;
+}
+
 .title-blue-dark {
     -webkit-text-fill-color: transparent;
     background: rgb(63, 93, 127);
@@ -545,6 +551,7 @@ margin-top: 2rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
 }
 /**************************TxT******************************/
 
