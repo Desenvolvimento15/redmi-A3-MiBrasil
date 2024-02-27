@@ -303,14 +303,14 @@ margin-top: 2rem;
 .grid-text-info{text-align: center;}
 
 
-.grid-icons-four{
-display: grid;
-grid-template-columns: 1fr 1fr;
-width: 55%;
-margin: 0 auto;
-gap: 1rem;
-margin-top: 15rem;
-}  
+.grid-icons-four {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 55%;
+    margin: 0 auto;
+    gap: 1rem;
+    margin-top: 3rem;
+}
 
 .grid-icons-five{
 display: grid;
