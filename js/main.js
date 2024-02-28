@@ -12,3 +12,4 @@ $('.galeria').slick({
   lazyLoad: 'ondemand', controls: false,
    
 });
+
