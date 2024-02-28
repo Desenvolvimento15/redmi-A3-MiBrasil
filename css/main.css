@@ -227,18 +227,9 @@ margin: 0 auto;
 margin-bottom: 4rem;
 }
 
-.box-gradient-03 {
-    background:  url(../media/phone-front.png) no-repeat bottom,
-                linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);
-                background-size: 100% auto; /* ajusta o tamanho da imagem */
-    width: 100%;
-    height: 55rem;
-    position: relative;
-}
-
-
-.box-gradient {
-background: linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);       
+.box-gradient{
+background: linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);
+width: 100%;
 height: 55rem;
 position: relative;
 }
@@ -249,6 +240,15 @@ background: linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 4
 width: 100%;
 height: auto;
 position: relative; 
+}
+
+.box-gradient-03 {
+    background:  url(../media/phone-front.png) no-repeat bottom,
+                linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);
+                background-size: 100% auto; /* ajusta o tamanho da imagem */
+    width: 100%;
+    height: 55rem;
+    position: relative;
 }
 
 .title-blue-dark {
@@ -447,15 +447,6 @@ width: 100%;
 .img-mob{display: block;}
 
 
-.box-gradient-03 {
-    background:  url(../media/phone-mob.png) no-repeat bottom,
-                linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);
-                background-size: 100% auto; /* ajusta o tamanho da imagem */
-    width: 100%;
-    height: 36rem;
-    position: relative;
-}
-
 
 .box-gradient {
 background: linear-gradient(35deg, rgba(117, 237, 212, 1) 12%, rgba(99, 149, 220, 1) 45%, rgba(76, 170, 232, 1) 70%, rgba(44, 225, 255, 1) 96%);
@@ -467,6 +458,16 @@ height: auto;
 background: linear-gradient(31deg, rgba(117, 237, 212, 1) 5%, rgba(99, 149, 220, 1) 20%, rgba(76, 170, 232, 1) 70%, rgba(44, 225, 255, 1) 96%);
 width: 100%;
 height: auto;
+}
+
+
+.box-gradient-03 {
+    background:  url(../media/phone-mob.png) no-repeat bottom,
+                linear-gradient(35deg, rgba(117,237,212,1) 12%, rgba(99,149,220,1) 45%, rgba(76,170,232,1) 70%, rgba(44,225,255,1) 96%);
+                background-size: 100% auto; /* ajusta o tamanho da imagem */
+    width: 100%;
+    height: 36rem;
+    position: relative;
 }
 
 .title-blue-dark {
