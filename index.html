@@ -102,13 +102,23 @@
 
             <div class="col-sm-12-s101 spacing">
 
-                <div class="galeria">
-
-                    <img src="./media/10.jpg" alt="" class="img-fluid">
-                    <img src="./media/11.jpg" alt="" class="img-fluid">
-                    <img src="./media/12.jpg" alt="" class="img-fluid">
-
-                </div>
+                <div id="slider">
+                    <div id="slides">
+                      <div class="slide">
+                        <img src="./media/10.jpg" alt="Item 01">
+                      </div>
+                      <div class="slide">
+                        <img src="./media/11.jpg" alt="Item 02">
+                      </div>
+                      <div class="slide">
+                        <img src="./media/12.jpg" alt="Item 03">
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div id="dots-container"></div>
+                  
+              
 
             </div>
 
@@ -744,9 +754,45 @@
 
 
 </div>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+  $(document).ready(function() {
+    const $slides = $('#slides');
+    const $dotsContainer = $('#dots-container');
+    const $textItem = $('#text-item');
 
-    <script type="text/javascript" src="./js/slick.min.js"></script>
-    <script src="./js/main.js"></script>
+    const slideTexts = ["Texto do Item 01", "Texto do Item 02", "Texto do Item 03"];
+
+    let currentSlide = 0;
+
+    function showSlide(index) {
+      $slides.css('transform', `translateX(${-index * 100}%)`);
+      $textItem.text(slideTexts[index]);
+
+      $('.dot').each(function(i, dot) {
+        $(dot).toggleClass('active', i === index);
+      });
+    }
+
+    function createDots() {
+      for (let i = 0; i < slideTexts.length; i++) {
+        const $dot = $('<span>').addClass('dot').on('click', () => showSlide(i));
+        $dotsContainer.append($dot);
+      }
+    }
+
+    function autoPlay() {
+      setInterval(() => {
+        currentSlide = (currentSlide + 1) % slideTexts.length;
+        showSlide(currentSlide);
+      }, 3000); // Altera o slide a cada 3 segundos
+    }
+
+    createDots();
+    showSlide(currentSlide);
+    autoPlay();
+  });
+</script>
 </body>
 
 </html>

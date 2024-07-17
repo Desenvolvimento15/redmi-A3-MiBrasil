@@ -337,69 +337,48 @@ width: 25rem;
 
 
 /********************** Slideshow ********************/
-
-.slick-slider {
-position: relative;
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
-user-select: none;
--webkit-tap-highlight-color: transparent;
+#slider {
+  width: 100%;
+  overflow: hidden;
 }
 
-.slick-list, .slick-slider button{overflow: hidden}
-.slick-list.dragging {cursor: ew-resize}
-.slick-slide {
-display: none;
-float: left;
-height: 100%;
-min-height: 1px;
-z-index: 10 !important;
+#slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
 }
 
-.slick-slide img{width:100%}
-.slick-slide.dragging img {pointer-events: none}
-.slick-initialized .slick-slide {display: block}
-.slick-slider button{
-cursor: pointer; 
-outline: 0;
-text-indent: 100px;
-transition: all .4s ease;
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
 }
 
-
-/*** Pagination ***/
-.slick-dots {
-margin: 2rem 0 0;
-padding: 0;
-text-align: center;
-margin-bottom: 1rem;
+.slide img {
+  width: 100%;
+  height: auto;
 }
 
-.slick-dots li{
-display: inline-block;
-margin: 0 5px;
+#dots-container {
+  text-align: center;
+  margin-top: 20px;
 }
 
-.slick-dots button {
-background: #828282;
-border-radius: 15px;
-border: 1px solid #828282;
-height: 20px;
-width: 20px;
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.slick-active button{
-background: #292929; 
-border-color: #292929;
+.dot.active {
+  background-color: #717171;
 }
 
-.icons-img-end{
-width: 40rem;
-margin: 0 auto;
-display: block;
-margin-top: 5rem;
+#slide-text {
+  text-align: center;
+  margin-top: 20px;
 }
 
 /************************* Mobile ***********************/
